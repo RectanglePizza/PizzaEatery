@@ -1,0 +1,23 @@
+.pizza_cont {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(80px,1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.pizza_img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+.backPageLink {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin: 1rem;
+    transition: 0.2px;
+    font-weight: 700;
+}
+.backPageLink:hover {
+    color: rgb(72, 180, 4);
+}
