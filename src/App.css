@@ -24,6 +24,7 @@ html,body {
 section {
     display: grid;
     grid-template-columns: repeat(4,minmax(100px,1fr));
+    
 }
 section div {
     grid-column: 1/2;
